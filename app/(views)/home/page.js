@@ -7,7 +7,7 @@ export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   const handleClick = () => {
-    window.location.href = 'http://localhost:3000/step2';
+    window.location.href = 'https://noleggiare.vercel.app/step2';
   };
 
   return (
