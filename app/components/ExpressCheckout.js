@@ -31,7 +31,7 @@ const ExpressCheckout = () => {
             elements,
             clientSecret,
             confirmParams: {
-                return_url: 'https://example.com/success',
+                return_url: 'https://noleggiare.vercel.app/success',
             },
         });
 
